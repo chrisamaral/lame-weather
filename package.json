@@ -1,0 +1,21 @@
+{
+  "name": "lame-weather",
+  "version": "0.0.0",
+  "description": "lame weather api",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisamaral/lame-weather.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisamaral/lame-weather/issues"
+  },
+  "homepage": "https://github.com/chrisamaral/lame-weather#readme",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-brute": "^0.6.0",
+    "node-fetch": "^1.4.1"
+  }
+}
