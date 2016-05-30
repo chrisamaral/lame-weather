@@ -1,4 +1,6 @@
-require('dotenv').config()
+require('dotenv').config({
+  path: require('path').resolve(__dirname, '.env')
+})
 
 var app = require('express')()
 var cors = require('cors')
